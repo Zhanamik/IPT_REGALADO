@@ -1,0 +1,447 @@
+*{
+    margin: auto;
+    font-family: serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #0C0C0C;
+    overflow-x: hidden;
+    height: 250vh;
+}
+
+.box1{
+    border: #222831 solid;
+    position: absolute;
+    width: 89.5%;
+    height: 59px;
+    top: 1.5rem;
+    left: 4rem;
+    background-color: #2a2b2e;
+    z-index: 1;
+    
+}
+.box2 img{
+    height: 100%;
+    width: 50%;
+    bottom: 100px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #4e4e4f;
+}
+
+h1 span{
+    color: white;
+}
+.box1 h1{
+    font-size: 3rem;
+    color: rgb(255, 208, 0);
+    margin-left: 1rem;
+}
+.Navigationbar{
+    top: 17px;
+    right: 0;
+    position: absolute;
+}
+li span{
+    color: rgb(255, 208, 0);
+}
+li{
+    display: inline;
+    font-size: 1.2rem;
+    right: 5px;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+.PROJECTS{
+    border: solid rgb(255, 208, 0);
+    border-radius: 50px 50px 50px 50px;
+    background-color: hsl(240, 4%, 10%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.PROJECTS:hover{
+    border: solid rgb(255, 208, 0);
+    border-radius: 50px 50px 50px 50px;
+    background-color: hsl(240, 4%, 10%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+li:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 208, 0);
+    padding: 10px;
+}
+li:active{
+    color: blue;
+}
+li span:active{
+    color: blue;    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+.Text{
+    color: white;
+    padding: 0;
+ 
+}
+.Text p{
+    animation: textSlides;
+    animation-duration: 2s;
+   
+}
+p span{
+    color: rgb(255, 208, 0);
+    
+}
+p:nth-child(1){
+    position: absolute;
+    top: 170px;
+    text-align: center;
+    left: 100px;
+    font-size: 3rem;
+    border-bottom: solid rgb(248, 248, 248);
+    height: 70px;
+    width: 330px;
+
+}
+p:nth-child(2){
+    position: absolute;
+    top: 260px;
+    text-align: center;
+    left:125px;
+    font-size: 1.5rem;
+}
+p:nth-child(3){
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    left: 170px;
+    font-size: 1rem;
+    font-style: italic;
+}
+.box2{
+    background-color: #2a2b2e;
+    position: absolute;
+    top: 110px;
+    left: 4rem;
+    height: 90%;
+    width: 90%;
+
+}
+.Text img{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    top: 60px;
+    left: 790px;
+}
+
+/* @keyframes textSlides{
+    from{margin-right: 100%;}
+    to{margin-right: 0%;}
+}
+ */
+
+.box3{
+    left: 4rem;
+    height: 480px;
+    width: 90%;
+    position: absolute;
+    top: 760px;
+    background-color: rgb(36, 36, 36);
+    
+}
+.box3 .info{
+    font-size: 5px;
+    position: absolute;
+}
+
+.Downlink{
+    position: absolute;
+    left: 550px;
+    top: 1250px;
+}
+
+.Downlink a{
+    position: absolute;
+    text-align: center;
+    border: solid rgb(255, 208, 0);
+    background-color: hsl(240, 4%, 10%);
+    border-radius: 50px 50px 50px 50px;
+    height: 20px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+.Downlink a:hover{
+    background-color: hsl(240, 4%, 10%);
+    color: rgb(255, 208, 0);
+}
+.Downlink a:active{
+    color: yellow;
+}.Downlink{
+    position: absolute;
+}
+
+.box3 .info p{
+    border-bottom: 0;
+    text-align: center;
+    background-color: hsl(240, 4%, 10%);
+    color: white;
+    font-size: 30px;
+}
+.box3 .info .about p{
+    position: absolute;
+    height: 60px;
+    top: 20px;
+    left: 40px;
+    padding-top: 10px;
+}
+
+.box3 .info .languages p{
+    position: absolute;
+    height: 60px;
+    top: 20px;
+    left: 450px;
+    padding-top: 10px;
+}
+
+.box3 .info .frameworks p{
+    position: absolute;
+    height: 60px;
+    padding-top: 10px;
+    top: 20px;
+    left: 850px;
+
+}
+.box3 .info .about .text{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 10px;
+    height: 380px;
+    width: 330px;
+    text-align: center;
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
+
+.box3 .info .languages .languagestext{
+    position: absolute;
+    top: 80px;
+    left: 450px;
+    font-size: 30px;
+    height: 380px;
+    width: 330px;
+    color: rgb(255, 208, 0);
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+.box3 .info .frameworks .frameworktext{
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    font-size: 30px;
+    height: 380px;
+    width: 330px;
+    color: rgb(255, 208, 0);
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+.footer .container .row .footer-col ul li{
+    background-color: rgba(16,16,17,255);
+    top: 1370px;
+    position: absolute;
+    left: 0px;
+    height: 230px;
+    width: 1400px;
+}
+.footer .container .row .footer-col ul li p{
+    position: absolute;
+    border-bottom: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.footer .container .row .footer-col .footer-ul .contact-me{
+    color: #4e4e4f;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    font-size: 20px;
+}
+.footer .container .row .footer-col .footer-ul .mail{
+    font-size: 15px;
+    color: #4e4e4f;
+    position: absolute;
+    top: 50px;
+}
+.footer .container .row .footer-col .footer-ul .copyright-logo{
+    position: absolute;
+    color: #4e4e4f;
+    left: 330px;
+    font-size: 10px;
+    width: 700px;
+    top: 190px;
+}img{
+    width: 30px;
+    position: absolute;
+    top: 50px;
+    right: 280px;
+    padding: 10px;
+
+}img:hover{
+    background-color: #4e4e4f;
+    border-radius: 100px;
+    padding: 10;
+}
+.footer .container .row .footer-col .footer-ul .number{
+    color: #4e4e4f;
+    font-size: 11px;
+    position: absolute;
+    left: 630px;
+    top: 80px;
+}
+.footer .container .row .footer-col .footer-ul .email{
+    color:#4e4e4f;
+    font-size: 20px;
+    position: absolute;
+    left: 623px;
+    top: 110px;
+}
+.footer .container .row .footer-col .footer-ul a .facebook{
+    background-color: #4e4e4f;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+.footer .container .row .footer-col .footer-ul a .facebook:hover{
+    border-radius: 10px;
+}
+.footer .container .row .footer-col .footer-ul a .instagram{
+    background-color: #4e4e4f;
+    position: absolute;
+    left: 1010px;
+}
+.footer .container .row .footer-col .footer-ul a .instagram:hover{
+    border-radius: 10px;
+}
+.footer .container .row .footer-col .footer-ul a .linkedin{
+    background-color: #4e4e4f;
+    position: absolute;
+    left: 1105px;
+}
+.footer .container .row .footer-col .footer-ul a .linkedin:hover{
+    border-radius: 10px;
+}
+.languages .javascript{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 130px;
+    top: 30px;
+}
+.languages .javascript:hover{
+    border-radius: 0;
+}
+.frameworks .nodejs{
+    position: absolute;
+    left: 130px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+.frameworks .nodejs:hover{
+    border-radius: 0;
+}
+.frameworks .mongodb{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 130px;
+    top: 270px;
+}
+.frameworks .mongodb:hover{
+    border-radius: 0;
+}
+.frameworks .bootstrap{
+    background-color: white;
+    position: absolute;
+    left: 130px;
+    height: 50px;
+    width: 50px;
+    top: 160px;
+}
+.frameworks .bootstrap:hover{
+    border-radius: 0;
+}
+.box3 .info .about .age{
+    color: white;
+    background-color: #4e4e4f;
+    font-size: 10px;
+    height: 0;
+    position: absolute;
+    top: 160px;
+    left: 35px;
+}
+.box3 .info .languages .markup{
+    color: white;
+    position: absolute;
+    left: 450px;
+    top: 210px;
+    font-size: 24px;
+    width: 330px;
+    height: 60px;
+    text-align: center;
+    background-color: hsl(240, 4%, 10%);
+}
+.box3 .info .languages .markup .html{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    height: 50px;
+    width: 50px;
+}
+.box3 .info .languages .markup .css{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 50px;
+    width: 50px;    
+}
+.box3 .info .languages .markup .css, .box3 .info .languages .markup .html:hover{
+    border-radius: 0;
+}
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Style the button */
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#modeToggle{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    font-size: 12px;
+    background-color: #4e4e4f;
+    color: white;
+}
